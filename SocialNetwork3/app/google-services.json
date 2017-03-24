@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "234411993645",
+    "firebase_url": "https://socialnetwork-88927.firebaseio.com",
+    "project_id": "socialnetwork-88927",
+    "storage_bucket": "socialnetwork-88927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234411993645:android:a52aa0a0a50c65c6",
+        "android_client_info": {
+          "package_name": "com.example.admin.socialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234411993645-gbp1ce32c3t1fs79nk9n69dd0lt20u4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.socialnetwork",
+            "certificate_hash": "D000EBC10BDA5627F425F451BD0219B098ADD3CB"
+          }
+        },
+        {
+          "client_id": "234411993645-mbus9pcaoeno5dv8u142s5ei0sbbr5g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.socialnetwork",
+            "certificate_hash": "FFDFCE16784A8E9B3EBE00803C83EC93B5E23710"
+          }
+        },
+        {
+          "client_id": "234411993645-llbhf0ep21l21ffcr257m9osa1ahu7mn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.socialnetwork",
+            "certificate_hash": "CC93FF412C3C26332E8E9DF1A163EDF4DA6CF50D"
+          }
+        },
+        {
+          "client_id": "234411993645-31ufji7ja8qvgrbm9edlmbjg81m4urh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3_dmN5_DgU3PniaWCYYhxEI9QjsafZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234411993645-31ufji7ja8qvgrbm9edlmbjg81m4urh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

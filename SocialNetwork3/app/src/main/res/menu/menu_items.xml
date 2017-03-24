@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"/>
+     <item
+            android:id="@+id/changePassword"
+            android:title="Change Password"/>
+     <item
+            android:id="@+id/logout"
+            android:title="Sign out"/>
+     <item
+            android:id="@+id/chats"
+            android:title="Chats"/>
+     <item
+            android:id="@+id/about"
+            android:title="About Us"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat_room"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.socialnetwork.Chat.ChatRoomActivity"
+    android:background="#eee">
+
+    <LinearLayout
+        android:id="@+id/lR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff">
+        <EditText
+            android:id="@+id/etxSendindMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Message"
+            android:layout_margin="5dp"
+            android:layout_weight=".5"
+            android:background="#fff"/>
+        <Button
+            android:id="@+id/btnSendMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="11sp"
+            android:textColor="#fff"
+            android:layout_weight="1.5"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/lR">
+
+        <TextView
+            android:id="@+id/etxReceivedMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_margin="5dp"/>
+        </ScrollView>
+
+</RelativeLayout>

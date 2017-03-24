@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stranger"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/etxFEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textAutoComplete"
+            android:background="@drawable/button_background"/>
+        <EditText
+            android:id="@+id/etxFPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textColorHint="#fff"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:background="@drawable/button_background" />
+        <EditText
+            android:id="@+id/etxFPasswordAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Again"
+            android:textColorHint="#fff"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:background="@drawable/button_background" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_background"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/btnFSigUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="1dp"
+                    android:background="@android:color/transparent"
+                    android:text="SIGN UP"
+                    android:textColor="#fff"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/Fprogressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
